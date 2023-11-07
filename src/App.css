@@ -24,6 +24,21 @@
   color: white;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffc107; /* or any other color you want */
+}
+
+.App {
+  flex: 1;
+}
+
+
 .App-link {
   color: #61dafb;
 }
