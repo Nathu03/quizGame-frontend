@@ -1,0 +1,19 @@
+.animated-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.animated-text::after {
+  content: "|"; /* Cursor effect at the end */
+  display: inline-block;
+  width: 0;
+  animation: cursorAnimation 0.5s infinite;
+}
+
+@keyframes cursorAnimation {
+  50% {
+    opacity: 0;
+  }
+}

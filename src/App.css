@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #ffc107; /* or any other color you want */
+  background-color: #ffffff; /* or any other color you want */
 }
 
 .App {

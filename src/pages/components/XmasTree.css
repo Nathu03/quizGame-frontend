@@ -1,0 +1,19 @@
+.xmas-tree-container {
+  position: relative;
+}
+
+.xmas-tree {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  animation: scale 5s ease-in-out infinite alternate;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}

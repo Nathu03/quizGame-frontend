@@ -1,0 +1,42 @@
+/* Ensure the body takes up the full screen */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Add background color if needed */
+  }
+  
+  .not-found-container {
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .not-found-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .go-to-home-button {
+    text-decoration: none;
+  }
+  
+  .home-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .home-btn:hover {
+    background-color: #0056b3; /* Change color on hover */
+  }
+  
